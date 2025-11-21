@@ -16,7 +16,7 @@ pipeline {
     stage('Docker Build') {
     	 agent any
       steps {
-      	sh 'docker build -t java-hello-world-with-maven-deploment:latest .'
+      	sh 'docker build -t java-hello-world-with-maven-deplyoment:latest .'
       }
     }
     
